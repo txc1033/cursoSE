@@ -9,12 +9,12 @@ package com.javifast.clase_x_interface_grafica;
  *
  * @author javie
  */
-public class NewJPanel extends javax.swing.JPanel {
+public class Clase_53_a_55_JPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form NewJPanel
      */
-    public NewJPanel() {
+    public Clase_53_a_55_JPanel() {
         initComponents();
     }
 
