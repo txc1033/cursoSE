@@ -10,7 +10,7 @@ package com.javifast.clase_v_basicas;
  * @author javie
  */
 public class Clase_09_sentencias {
-    public Clase_09_sentencias(int x){
+    public void Sentencia_if(int x){
         if (x < 50 && x < 10){ // la sentencia dice: si x es menor a 50 equivalente a verdadero y x es mayor a 10 equivalente a falso
             if (x != 25){ // tambien podemos generar tantas sentencias como deseemos pero si evitando contradecir las sentencias superiores ya
                 //que provocaria un error de logica y lo mas probable que el programa no funcione

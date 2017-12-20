@@ -18,7 +18,7 @@ public class Clase_47_file_write {
         FileWriter archivo = null; // inicializamos el objeto filewrite llamado archivo y lo dejamos con valor null
         PrintWriter printer = null; // inicializamos el objeto filewrite llamado printer y lo dejamos con valor null
         try{ // creamos un try-catch para controalar posible errores
-            archivo = new FileWriter("d://camara beta.txt", true); // usamos el objeto archivo y le almacenamos el elemento en la ruta + el 
+            archivo = new FileWriter("src/textos/primer texto.txt", true); // usamos el objeto archivo y le almacenamos el elemento en la ruta + el 
             // el agregado true en caso de tenerlo creado y evitar la sobre escritura del mismo
             printer = new PrintWriter(archivo);// almacenamos en el objeto printer el objeto archivo
             
@@ -34,7 +34,7 @@ public class Clase_47_file_write {
     
     public void try_with_resources() throws Exception{   
         PrintWriter printer = null; // inicializamos el objeto filewrite llamado printer y lo dejamos con valor null
-        try(FileWriter archivo = new FileWriter("d://camara beta.txt", true)){ // creamos un try whith resources colocando la variable a utilizar entre parentecis
+        try(FileWriter archivo = new FileWriter("src/textos/primer texto.txt", true)){ // creamos un try whith resources colocando la variable a utilizar entre parentecis
             printer = new PrintWriter(archivo);// almacenamos en el objeto printer el objeto archivo
             printer.println("Escribiendo en un try with resources"); // utilizamos el metodo .println() para escribir un mensaje en el archivo
         }catch(Exception e){

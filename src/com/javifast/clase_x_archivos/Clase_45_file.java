@@ -17,7 +17,7 @@ import java.io.File;
 public class Clase_45_file {
     
     public void archivo_existe() {
-    File archivo = new File("d:/camara beta.txt"); // primero inicializamos el objeto de tipo file llamado archivo + la ruta del del elemento
+    File archivo = new File("src/textos/primer texto.txt"); // primero inicializamos el objeto de tipo file llamado archivo + la ruta del del elemento
     // que deseamos abrir
     
    boolean existe = archivo.exists(); // el metodo .exists nos permite comprobar que nuestro archivo exista

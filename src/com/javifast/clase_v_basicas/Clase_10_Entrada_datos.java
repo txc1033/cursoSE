@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @author javie
  */
 public class Clase_10_Entrada_datos {
-    public Clase_10_Entrada_datos(){
+    public void Ingresar_dato(){
               Scanner input = new Scanner(System.in); // se instancia la variable input de tipo Scanner(metodo) y el parametro es System.in
           // para utilizar se debe importar la clase Scanner 
           System.out.println("Cual es tu nombre");

@@ -1,0 +1,35 @@
+
+Su entorno de desarrollo:
+
+El JDK incluye un conjunto de herramientas de linea de comandos para compilar y ejecutar su código Java, que incluye una copia 
+completa del JRE. Aunque usted ciertamente puede usar estas herramientas para desarrollar sus aplicaciones, 
+la mayoria de los desarrolladores valoran la funcionalidad adicional, la gestión de tareas y la interfaz visual de un IDE.
+
+Un IDE es recomendado para el desarrollo en Java. Maneja las tareas basicas, tales como la compilacion 
+de codigos y la configuracion de un entorno de depuracion, para que pueda centrase en escribir y probar codigos. 
+Ademas, puede usar un IDE para organizar archivos de codigos de origen en proyectos, compilar y probar esos proyectos 
+y almacenar archivos de proyectos en cualquier cantidad de repositorios de origen. 
+Necesita tener instalado un JDK para usar su IDE o programar el lenguaje Java.
+
+*****************************************************************************************************************************************
+Siga estos pasos para descargar e instalar JDK:
+
+1) Navegue hasta http://www.oracle.com/technetwork/java/javase/downloads/index.html y haga clic en el recuadro Java Platform (JDK) 
+para visualizar la pagina de descarga de la ultima version del JDK.
+
+2) Haga clic en el boton Download.
+
+3) Seleccione la plataforma del sistema operativo que necesita. Se le pedira el nombre de usuario y contraseña de su cuenta. 
+Ingreselos si tiene una cuenta, registrese si no la tiene o puede hacer clic en Continue para saltar este paso 
+y continuar para hacer la descarga.
+
+4) Guarde el archivo en su unidad de disco duro cuando se lo solicite.
+
+5) Cuando se complete la descarga, ejecute el programa de instalacion. (El archivo que acaba de descargar es un archivo ZIP autoextraible
+que tambien es el programa de instalacion). Instale el JDK en su unidad de disco duro en un una ubicación fácil de recordar 
+(por ejemplo, C:\jdk1.6.0_20 en Windows o ~/jdk1.6.0_20 en Linux). Es una buena idea codificar el número de actualización 
+en el nombre del directorio de instalacion que usted elija.
+6) Ahora tiene un entorno Java en su maquina ya puede comenzar. A continuación, instalara el IDE que mas le apetesca puede buscarlo por 
+internet los mas populares son Eclipse y Netbeans este proceso os lo dejo a su eleccion
+
+*****************************************************************************************************************************************

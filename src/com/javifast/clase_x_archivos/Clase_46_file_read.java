@@ -20,7 +20,7 @@ public class Clase_46_file_read {
     public void lectura() throws Exception { // al crear el metodo debemos instanciar las excepciones correspondiente para este ejemplo
         // abarcare una excepcion mas global
         try{ // generamos un bloque try-catch para evitar errores
-    FileReader archivo = new FileReader("d://camara beta.txt"); // inicializamos el objeto tipo Filereader llamado archivo
+    FileReader archivo = new FileReader("src/textos/primer texto.txt"); // inicializamos el objeto tipo Filereader llamado archivo
     // con la ruta del elemento que deseamos leer
     BufferedReader buffer = new BufferedReader(archivo); // inicializamos un objeto de tipo BufferedReader que esta conteniendo el objeto archivo
     String texto; // inicializamos una variable tipo string llamada texto que contendra el contenido del buffer
@@ -32,7 +32,7 @@ public class Clase_46_file_read {
         }
 }   // lectura con la clase FileInputStream
     public void lectura_en_byte() throws Exception { // al crear el metodo debemos instanciar las excepciones correspondiente para este ejemplo
-    FileInputStream in = new FileInputStream("d://camara beta.txt"); // inicializamos el objeto tipo FileInputStream llamado archivo
+    FileInputStream in = new FileInputStream("src/textos/primer texto.txt"); // inicializamos el objeto tipo FileInputStream llamado archivo
     // con la ruta del elemento que deseamos leer
     // para imprimir el texto nos apoyaremos en la clase scanner debido a que nuestro texto sera expresado en una cadena de byte
     Scanner scanner = new Scanner(in,"UTF-8"); // inicializamos un objeto de tipo Scanner llamado scanner done contendra el objeto in + el

@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class Clase_20_switch {
     
-    public Clase_20_switch(){
+    public void usando_switch(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese usuario");
         String resultado = sc.next();

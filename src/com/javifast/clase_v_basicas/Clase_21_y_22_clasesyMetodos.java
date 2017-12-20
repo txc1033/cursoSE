@@ -14,12 +14,14 @@ package com.javifast.clase_v_basicas;
 public class Clase_21_y_22_clasesyMetodos {
     private String nombre; //inicializacion de variable tipo string
     private int edad; //inicializacion de variable tipo int
+    // public Clase_21_y_22_clasesyMetodos(){} 
+    public void defecto(){ // metodo por defecto de la clase 
+        System.out.println("Clase por defecto"); // imprimiendo mensaje
+    }
     public void saludar(){ // metodo saludar
         nombre = "Javier"; //asignando valor a variable string
         edad=24; //asignando valor a variable int
         System.out.println("Hola "+ nombre +"\n"+ "Usted tiene "+edad+" años"); // imprimiendo mensaje
     }
-    public Clase_21_y_22_clasesyMetodos(){ // metodo por defecto de la clase
-        System.out.println("Clase por defecto"); // imprimiendo mensaje
-    }
+    
 }
