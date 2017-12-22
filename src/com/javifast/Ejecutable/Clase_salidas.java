@@ -27,12 +27,12 @@ import java.util.Scanner;
 public class Clase_salidas {
 
     public static void main(String... javifast) throws Exception { // aqui se invoca los metodos y clases con el parametro correspondiente
-        System.out.println("Bienvenido al Curso de Java Esencial:\nPorfavor elija un curso:\nSi desea conocer la lista del curso porfavor ingrese: 0");
+        
         Scanner clase = new Scanner(System.in);
         int elejir = 0;
-        do{
-         String separador = "============================================="+"============================================="
+        String separador = "============================================="+"============================================="
                            +"===============================================";
+        do{ System.out.println(separador+"\nBienvenido al Curso de Java Esencial:\nPorfavor elija un curso:\nSi desea conocer la lista del curso porfavor ingrese: 0");
             elejir = clase.nextInt();
         switch (elejir) {
             case 0:
@@ -433,7 +433,7 @@ public class Clase_salidas {
 //-------------------------------En caso de no encontrarse -----------------------------------------------------------------------------------------------
                 System.out.println("El valor ingresado no coincide, porfavor ingrese uno valido");
                 break;
-        }}while(elejir >= 59);
+        }}while(elejir <= 57);
     }
 
 }
