@@ -27,12 +27,12 @@ import java.util.Scanner;
 public class Clase_salidas {
 
     public static void main(String... javifast) throws Exception { // aqui se invoca los metodos y clases con el parametro correspondiente
-        
+        String mensaje = "\nBienvenido al Curso de Java Esencial:\nPorfavor elija un curso:\nSi desea conocer la lista del curso porfavor ingrese: 0";
         Scanner clase = new Scanner(System.in);
         int elejir = 0;
         String separador = "============================================="+"============================================="
                            +"===============================================";
-        do{ System.out.println(separador+"\nBienvenido al Curso de Java Esencial:\nPorfavor elija un curso:\nSi desea conocer la lista del curso porfavor ingrese: 0");
+        do{ System.out.println(separador+mensaje);
             elejir = clase.nextInt();
         switch (elejir) {
             case 0:
@@ -406,20 +406,20 @@ public class Clase_salidas {
            }
                 break;
             case 53:
-                System.out.println(separador);
+                System.out.println("Abriendo Swing creado Manualmente");
 //-------------------------Clase 53_a_56_Swing -----------------------------------------------------------------------------------------------------------
             new Clase_53_a_55_swing();           
                 break;
             case 54:
-                System.out.println(separador);
+                System.out.println("Abriendo Swing creado Manualmente");
             new Clase_53_a_55_swing();    
                 break;
             case 55:
-                System.out.println(separador);
+                System.out.println("Abriendo Swing creado Manualmente");
             new Clase_53_a_55_swing();    
                 break;
             case 56:
-                System.out.println(separador);
+                System.out.println("Abriendo Swing creado por IDE");
             new Clase_56_swing().setVisible(true);    
                 break;
             case 57:
@@ -427,13 +427,14 @@ public class Clase_salidas {
 //-------------------------------Clase 57 Hilos ----------------------------------------------------------------------------------------------------------
             new Clase_57_hilos();
             //iniciaciones
+            
                 break;
             default:
                 System.out.println(separador);
 //-------------------------------En caso de no encontrarse -----------------------------------------------------------------------------------------------
                 System.out.println("El valor ingresado no coincide, porfavor ingrese uno valido");
                 break;
-        }}while(elejir <= 57);
+        }}while(elejir > 57);
     }
 
 }

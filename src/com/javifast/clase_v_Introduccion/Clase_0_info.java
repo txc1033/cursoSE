@@ -25,9 +25,6 @@
         
 package com.javifast.clase_v_Introduccion;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  *
  * @author javie
@@ -148,6 +145,9 @@ public class Clase_0_info {
                System.out.print("| "+lista4[i]);
                System.out.print("| "+lista5[i]+"\n");
          }
+         System.out.println("============================================="+"============================================="
+         +"============================================="+"============================================="
+         +"=============================================================================");
         
     }
 }

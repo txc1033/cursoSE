@@ -5,9 +5,7 @@
  */
 package com.javifast.clase_x_interface_grafica;
 
-import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
-import javafx.event.ActionEvent;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -27,19 +25,16 @@ public class Clase_53_a_55_swing {
         
         JButton boton = new JButton("Saludar (Clase 54)");
         panel.add(boton);
-        JButton botonsalir = new JButton("Salir (Clase 56)");
+        JButton botonsalir = new JButton("Salir");
         panel.add(botonsalir);
         ventana.add(panel);
         ventana.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        boton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(java.awt.event.ActionEvent e) {
-                String captura = JOptionPane.showInputDialog(null, "Ingrese nombre (Clase 55)");
-                if (captura != null){
-                    JOptionPane.showMessageDialog(null,"Deverias ingresar tu nombre :C");}
-                else{JOptionPane.showMessageDialog(null,"Hola "+ captura);}
-            }
-        });
+        boton.addActionListener((java.awt.event.ActionEvent e) -> {
+            String captura = JOptionPane.showInputDialog(null, "Ingrese nombre (Clase 55)");
+            if (captura != null){
+                JOptionPane.showMessageDialog(null,"Deverias ingresar tu nombre :C");}
+            else{JOptionPane.showMessageDialog(null,"Hola "+ captura);}
+    });
         botonsalir.addActionListener((java.awt.event.ActionEvent e) -> {
             ventana.dispatchEvent(new WindowEvent(ventana, WindowEvent.WINDOW_CLOSING));
     });

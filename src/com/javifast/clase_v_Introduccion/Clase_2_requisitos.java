@@ -22,7 +22,8 @@ public class Clase_2_requisitos {
     BufferedReader buffer = new BufferedReader(archivo); 
     String texto; 
     while((texto = buffer.readLine()) !=null){ 
-        System.out.println(texto); 
+        System.out.println(texto);
+        Thread.sleep(2000);
     }
         }catch(IOException e){ 
          System.out.println(e.getMessage());
